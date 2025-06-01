@@ -1,0 +1,24 @@
+# --- セキュリティ関連 ---
+.env
+
+# --- Python関連 ---
+__pycache__/
+*.pyc
+venv/
+*.pkl
+
+# --- FAISS index（必要に応じて） ---
+backend/faiss_index/
+
+# --- Node.js / Next.js 関連 ---
+frontend/node_modules/
+frontend/.next/
+frontend/dist/
+
+# --- テスト関連 ---
+frontend/playwright-report/
+frontend/test-results/
+
+# --- OS/エディタ ---
+.DS_Store
+*.swp
